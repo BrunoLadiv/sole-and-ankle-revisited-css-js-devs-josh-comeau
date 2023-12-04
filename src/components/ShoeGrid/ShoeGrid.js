@@ -17,8 +17,8 @@ const ShoeGrid = () => {
 };
 
 const Wrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 50%), 1fr));
   gap: 32px;
   /*
     Alternatively, if we can't use 'gap', we could set:
@@ -32,8 +32,8 @@ const Wrapper = styled.div`
 `;
 
 const ShoeWrapper = styled.div`
-  min-width: 275px;
-  flex: 1;
+  /* min-width: 275px; */
+  /* flex: 1; */
 `;
 
 export default ShoeGrid;
