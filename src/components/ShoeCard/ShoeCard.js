@@ -81,7 +81,7 @@ const ImageWrapper = styled.div`
   border-radius: 16px 16px 4px 4px;
   overflow: hidden;
 `
-
+//edit this
 const Image = styled.img`
   will-change: transform;
   transition: transform 500ms;
